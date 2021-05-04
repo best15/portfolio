@@ -238,3 +238,47 @@ nav a{
 .Projects4-5{
     margin: 10px 50px 10px 25px;
 }
+
+#ContactMe{
+    
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 30px; 
+    align-items: center;
+    justify-content: center;   
+
+}
+
+
+#ContactMe h1{
+    font-size: 50px;
+    color: rgb(11, 11, 12);
+    font-family: "Shippori Mincho", serif;
+    
+}
+/* sets the width to 75% of the box that contains the contact links */
+.contactlinks{
+    width: 75%;
+}
+
+/* sets the display flex and jusitification padding and list-style of the list items inside unordered list elemet */
+.contactlinks ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding-top: 20px;
+}
+
+/* sets the border bottom of the list items inside unordered list items */
+.contactlinks ul li{
+   border-bottom: 4px solid var(--bordercolor);
+}
+
+/* sets the text-decoration and font-size of links insided list items */
+.contactlinks a{
+    text-decoration: none;
+    font-size: 20px;
+    color: var(--themecolor);
+    
+}
