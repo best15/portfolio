@@ -22,14 +22,12 @@ body{
 header{
     
     border-bottom: solid 5px rgba(29, 38, 113, 0.90);
-    margin-bottom: 8%;
     overflow: hidden;
     background: #C33764;  /* fallback colour. Make sure this is just one solid colour. */
     background: -webkit-linear-gradient(rgba(29, 38, 113, 0.7), rgba(195, 55, 100, 0.7)),url("./images/bgimage.jpg");
     background: linear-gradient(rgba(29, 38, 113, 0.9), rgba(235, 134, 166, 0.9)),url("./images/bgimage.jpg"); 
     height: 100vh;
     background-size: auto;
-    
     
 }
 
@@ -38,17 +36,19 @@ header h1{
     text-align: center;
     color: white;
     font-size: 50px;
+   
 }
 
 /* css for the title header */
 header  h2{
-    /* display: inline-block; */
+    
     justify-content: center;
     text-align: center;
     color: white;
     padding: 10px;
     margin-top: 19px;
     width: 50%;
+    
     
 }
 
@@ -58,7 +58,8 @@ nav{
     padding-top: 20px;
     margin-right: 20px;
     float:right;
-    
+    position: sticky;
+    top: 0;
 }
 
 /* Sets the link items in the list as inline-block to align them horizontally provided with some margin , padding and border */
@@ -104,6 +105,8 @@ nav a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 100px;
+    
   
 }
 
@@ -128,7 +131,7 @@ nav a{
     font-size: 50px;
     color: rgba(29, 38, 113, 0.9);
     font-family: "Shippori Mincho", serif;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
     border-bottom: double 5px rgba(29, 38, 113, 0.9);;
 
 }
@@ -143,27 +146,25 @@ nav a{
 }
 
 
-#MyWorkContainer h1{
-    font-size: 50px;
-    color: rgba(29, 38, 113, 0.9);
-    font-family: "Shippori Mincho", serif;
-    margin-bottom: 5%;
-    border-bottom: double 5px rgba(29, 38, 113, 0.9);;
-}
-
-
 /* Sets display flex and width height and margin of the article box */
 #MyWorkContainer{
     
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin-top: 30px; 
+    margin-top: 100px; 
     align-items: center;
     justify-content: center;   
 
 }
 
+#MyWorkContainer h1{
+    font-size: 50px;
+    color: rgba(29, 38, 113, 0.9);
+    font-family: "Shippori Mincho", serif;
+    margin-bottom: 3%;
+    border-bottom: double 5px rgba(29, 38, 113, 0.9);;
+}
 
 
 
@@ -250,7 +251,7 @@ nav a{
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin-top: 30px; 
+    margin-top: 100px; 
     align-items: center;
     justify-content: center;   
 
@@ -261,7 +262,7 @@ nav a{
     font-size: 50px;
     color: rgba(29, 38, 113, 0.9);
     font-family: "Shippori Mincho", serif;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
     border-bottom: double 5px rgba(29, 38, 113, 0.9);;
 }
 /* sets the width to 75% of the box that contains the contact links */
