@@ -282,3 +282,13 @@ nav a{
     color: var(--themecolor);
     
 }
+
+/* sets the footer of the page */
+footer {
+    margin-top: 15px;
+    padding: 30px;
+    text-align: center;
+    background-color: var(--HeaderFooter);
+    color: white;
+}
+
