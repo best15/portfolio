@@ -25,7 +25,7 @@ header{
     overflow: hidden;
     background: #C33764;  /* fallback colour. Make sure this is just one solid colour. */
     background: -webkit-linear-gradient(rgba(29, 38, 113, 0.7), rgba(195, 55, 100, 0.7)),url("./images/bgimage.jpg");
-    background: linear-gradient(rgba(29, 38, 113, 0.9), rgba(235, 134, 166, 0.9)),url("./images/bgimage.jpg"); 
+    background: linear-gradient(rgba(29, 38, 113, 0.9), rgba(235, 134, 166, 0.9)),url("../images/bgimage.jpg"); 
     height: 100vh;
     background-size: auto;
     
